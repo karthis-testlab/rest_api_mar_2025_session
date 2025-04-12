@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ServiceNowTestSuite">
+  <test thread-count="5" name="TableTests">
+    <classes>
+      <class name="week4.day1.IncidentE2ETest"/>
+      <class name="week4.day1.ChangeRequestE2ETest"/>   
+    </classes>
+  </test> <!-- TableTests -->
+</suite> <!-- ServiceNowTestSuite -->
