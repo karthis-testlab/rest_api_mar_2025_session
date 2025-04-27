@@ -1,4 +1,4 @@
-package week5.day2;
+package week6.day2;
 
 import org.json.JSONObject;
 import org.testng.annotations.Test;
