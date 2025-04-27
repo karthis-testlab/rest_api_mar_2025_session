@@ -10,7 +10,7 @@ public class RestAssuredFirstCode {
 		           .baseUri("https://dev265761.service-now.com")
 		           .basePath("/api/now/table")
 		           .auth().basic("admin", "d@9IvhOh5DR*")
-		           .log().all() // Request Log		          
+		           .log().all()// Request Log		          
 		           .when()
 		           .get("/incident")
 		           .then()
